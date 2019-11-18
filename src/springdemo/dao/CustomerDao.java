@@ -1,7 +1,7 @@
-package dao;
+package springdemo.dao;
 
 
-import entity.Customer;
+import springdemo.entity.Customer;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package testdb;
+package springdemo.testdb;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

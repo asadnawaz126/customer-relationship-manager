@@ -1,6 +1,6 @@
-package dao;
+package springdemo.dao;
 
-import entity.Customer;
+import springdemo.entity.Customer;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;

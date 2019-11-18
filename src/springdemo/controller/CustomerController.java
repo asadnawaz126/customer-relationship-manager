@@ -1,8 +1,8 @@
-package springdemo;
+package springdemo.controller;
 
 
-import dao.CustomerDao;
-import entity.Customer;
+import springdemo.dao.CustomerDao;
+import springdemo.entity.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
