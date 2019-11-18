@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="customer-relationship-manager:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/customer_relationship_manager_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="customer-relationship-manager/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="customer-relationship-manager" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="Spring MVC" />
+          <element id="library" level="application" name="mysql-connector-java-8.0.18" />
+          <element id="library" level="application" name="Hibernate" />
+          <element id="library" level="application" name="JSTL" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
