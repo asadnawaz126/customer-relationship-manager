@@ -22,7 +22,7 @@ public class CustomerController {
 
         List<Customer> customers = customerDao.getCustomers();
 
-        model.addAttribute("customer", customers);
+        model.addAttribute("customers", customers);
 
         System.out.println("This is being called");
         return "list-customers";
