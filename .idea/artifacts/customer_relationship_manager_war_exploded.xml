@@ -14,6 +14,12 @@
           <element id="library" level="application" name="JSTL" />
         </element>
       </element>
+      <element id="directory" name="resources">
+        <element id="directory" name="css">
+          <element id="file-copy" path="$PROJECT_DIR$/web/resources/css/add-customer-style.css" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/resources/css/style.css" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
