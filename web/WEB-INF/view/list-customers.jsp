@@ -11,7 +11,7 @@
 <head>
     <title>List Customers</title>
 
-    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css}">
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"/>
 </head>
     <body>
 
