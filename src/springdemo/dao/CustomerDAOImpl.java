@@ -12,14 +12,13 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository
-public class CustomerDaoImpl implements CustomerDao {
+public class CustomerDAOImpl implements CustomerDAO {
 
     @Autowired
     private SessionFactory sessionFactory;
 
 
     @Override
-    @Transactional
     public List<Customer> getCustomers() {
         Session session = sessionFactory.getCurrentSession();
 
