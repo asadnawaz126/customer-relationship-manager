@@ -29,6 +29,9 @@
 
         <form:form action="saveCustomer" modelAttribute="customer" method="post">
 
+            <!-- Gets customer id and submits it all without the user knowing. Needed so that we can change the values in the database at same id when user wants to update an entry-->
+            <form:hidden path="id"/>
+
             <table>
                 <tbody>
                 <tr>
