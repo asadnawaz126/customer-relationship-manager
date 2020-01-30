@@ -24,7 +24,6 @@ public class CustomerController {
 
         model.addAttribute("customers", customers);
 
-        System.out.println("This is being called");
         return "list-customers";
     }
 
@@ -55,5 +54,13 @@ public class CustomerController {
         model.addAttribute("customer", customer);
 
         return "customer-form";
+    }
+
+    @GetMapping("/delete")
+    public String deleteCustomer(@RequestParam("customerId") int id){
+
+        customerService.deleteCustomer(id);
+
+        return "redirect:/customer/list";
     }
 }
